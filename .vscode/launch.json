@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug leetcode-cli",
+        "type": "lldb",
+        "request": "launch",
+        "program": "${workspaceFolder}/target/debug/leetcode",
+        "args": ["pick", "1"],
+        "cwd": "${workspaceFolder}",
+        "stopOnEntry": false
+      }
+    ]
+  }
